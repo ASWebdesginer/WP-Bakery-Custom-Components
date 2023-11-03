@@ -1,0 +1,84 @@
+
+.vc_param_group-collapsed>.wpb_element_wrapper{
+    display: block !important;
+}
+.hidethisinput{
+    display: none !important;
+}
+.document_ipload{
+    display: none;
+}
+.namefile{
+    width: 60% !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    position: relative;
+}
+p.filepath {
+    font-size: 9px;
+}
+.namefile .wpb_element_label{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    line-height: 30px;
+}
+.custom_btn{
+    width: 30% !important;
+    margin-top: 40px;
+    padding-bottom: 7px;
+}
+.mi6documentdiv .vc_description,.custom_btn .wpb_element_label{
+    display: none;
+}
+.namefile .vc_description{
+    opacity: 0;
+    display: block !important;
+}
+.mi6documentdiv .wpb_row_container>.wpb_vc_column{
+    margin-bottom: 0px;
+}
+.vc_param_group-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px !important;
+}
+button.mediabtn {
+    border: 1px solid #c92e2e;
+    color: #c92e2e;
+    width: 120px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 5px;
+}
+.mi6documentdiv .vc_controls-row{
+    display: none;
+}
+.mi6documentdiv .wpb_element_wrapper{
+    background: transparent !important;
+}
+.vc_empty-container{
+    outline: none;
+}
+.vc_empty-container::after{
+  content: "ADD MORE" !important;
+  width: 200px !important;
+  height: 50px !important;
+  background-color: rgb(217, 217, 217) !important;
+  left: 30px !important;
+  right: auto !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-weight: 500 !important;
+  color: rgb(0, 0, 0) !important;
+  padding-bottom: 3px !important;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif !important;
+}
+.vc_ui-panel.vc_active{
+    min-width: 500px !important;
+}
